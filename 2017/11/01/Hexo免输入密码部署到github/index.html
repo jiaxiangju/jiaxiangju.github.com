@@ -17,7 +17,7 @@
 <meta property="og:description" content="在使用(hexo d)命令部署hexo到github时，每次都要输入用户名和密码，这会使得你预览你博客的修改显得更加繁琐。下面的方法将使你摆脱这种痛苦。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://ww3.sinaimg.cn/large/005yyi5Jjw1ekoxz1h4ihj30bo0cadh3.jpg">
-<meta property="og:updated_time" content="2017-11-01T07:19:22.483Z">
+<meta property="og:updated_time" content="2017-11-01T09:25:44.838Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo免输入密码部署到github">
 <meta name="twitter:description" content="在使用(hexo d)命令部署hexo到github时，每次都要输入用户名和密码，这会使得你预览你博客的修改显得更加繁琐。下面的方法将使你摆脱这种痛苦。">
@@ -171,7 +171,7 @@
       
         <p>在使用(hexo d)命令部署hexo到github时，每次都要输入用户名和密码，这会使得你预览你博客的修改显得更加繁琐。<br>下面的方法将使你摆脱这种痛苦。</p>
 <a id="more"></a>
-<p>首先，在系统环境变更中设置一个环境变更<br>变更名：HOME<br>变更值：%USERPROFILE%<br>如下图：<br><img src="http://ww3.sinaimg.cn/large/005yyi5Jjw1ekoxz1h4ihj30bo0cadh3.jpg" alt="图片丢失"><br>接着在你的用户目录（c:\Users\username）下新建一个叫 _netrc 的文件<br>编辑这个文件：<br>    machine github.com<br>    login username<br>    password password</p>
+<p>首先，在系统环境变更中设置一个环境变更<br>变更名：HOME<br>变更值：%USERPROFILE%<br>如下图：<br><img src="http://ww3.sinaimg.cn/large/005yyi5Jjw1ekoxz1h4ihj30bo0cadh3.jpg" alt="图片丢失"><br>接着在你的用户目录（c:\Users\username）下新建一个叫 _netrc 的文件<br>编辑这个文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">machine github.com</div><div class="line">login username</div><div class="line">password password</div></pre></td></tr></table></figure></p>
 <p>设置好后，再次部署就不用输入用户名密码了</p>
 <p>form ：<a href="http://blog.csdn.net/forevercjl/article/details/39557713" target="_blank" rel="external">来自这篇文章</a></p>
 
